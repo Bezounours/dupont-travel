@@ -1,0 +1,12 @@
+$header-transparent-row: #0000007d;
+$primary-font-color: white;
+
+.header-image {
+	background: url(./../img/background-header.jpg);
+	height: 450px;
+}
+
+.header-content {
+	background-color: $header-transparent-row;
+	color: $primary-font-color;
+}
