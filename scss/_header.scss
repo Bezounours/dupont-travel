@@ -1,5 +1,45 @@
 $header-transparent-row: #0000007d;
-$primary-font-color: white;
+$quickform-background: #00000099;
+$primary-font-color: #cecece;
+$navbar-font-weight: 700;
+
+.header-image {
+	div:first-child {
+		height: 50px;
+	}
+}
+
+.header-content {
+	&:first-child {
+		display: flex;
+		align-items: center;
+		p {
+			margin: 0 35px;
+		}
+		a {
+			margin-left: 20px;
+			img {
+				height: 30px;
+			}
+		}
+	}
+}
+
+.align-content-right {
+	display: flex;
+	justify-content: flex-end;
+	p {
+		margin: 0;
+	}
+}
+
+.align-content-left {
+	display: flex;
+	justify-content: flex-start;
+	p {
+		margin: 0;
+	}
+}
 
 .header-image {
 	background: url(./../img/background-header.jpg);
@@ -9,4 +49,10 @@ $primary-font-color: white;
 .header-content {
 	background-color: $header-transparent-row;
 	color: $primary-font-color;
+	font-weight: $navbar-font-weight;
+}
+
+.quick-form {
+	background: $quickform-background;
+	height: 60px;
 }
